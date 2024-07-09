@@ -3,7 +3,7 @@
 
 NAME		= fixed
 CC			= c++
-FLAGS		= -Wall -Wextra -I. -std=c++98
+FLAGS		= -Wall -Wextra -Werror -I. -std=c++98 -MMD
 RM			= rm -rf
 
 OBJS_DIR	= bin
